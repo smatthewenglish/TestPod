@@ -8,11 +8,17 @@
 
 import UIKit
 
+import TestPod
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let rm = ReplaceMe()
+        rm.blah()
+        
     }
 
     override func didReceiveMemoryWarning() {

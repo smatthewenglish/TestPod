@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+  - TestPod (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+  - TestPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  TestPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  TestPod: af2fd0828f2bb030af04aa378474b5752831d7b0
+
+PODFILE CHECKSUM: cf81aecfa14c3e425b8d66656255dbbb99aec5df
+
+COCOAPODS: 1.8.4
